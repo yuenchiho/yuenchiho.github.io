@@ -1,0 +1,82 @@
+/*@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+  font-style: italic, oblique;
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+  font-weight: bold;
+  font-style: italic, oblique;
+}*/
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+   nav {
+      font-size: 10px;
+   }
+}
+
+body {
+   font: 13px Verdana, sans-serif;
+   text-align: justify;
+}
+
+header {
+   padding-top: 30px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 25px;
+   font: bold 45px Palatino, serif;
+}
+
+nav {
+   text-align: center;
+   word-spacing: 10px;
+   background-color: rgb(200, 200, 200);
+}
+
+iframe {
+   display: block;
+   height: 70vh;
+   width: 100%;
+   background-color: transparent;
+   border: 0px none transparent;
+   padding: 0px;
+}
+
+.content {
+   margin: auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   width: 80%;
+   max-width: 640px;
+}
+
+#whole {
+   border: double;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   width: 80%;
+   max-width: 640px;
+}
+
+footer {
+   display: block;
+   text-align: left;
+   padding-bottom: 1px;
+   margin: 0px;
+   background-color: rgb(200, 200, 200);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=550">
+<title>Chi Ho Yuen &ndash; Brown University</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script language="javascript" type="text/javascript">
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.offsetHeight + "px";
+  }
+</script>
+</head>
+<body id="whole"
+onresize="resizeIframe(document.getElementById('main'));" onorientationchange="resizeIframe(document.getElementById('main'));">
+<header>
+<a href="index.html" style="color:black; text-decoration:none;">Chi Ho Yuen</a>
+<a href="https://www.brown.edu" target="_top"><img
+src="brown-logo.png" alt="Brown University" height="80"
+width="160" style="margin-top:-15px; float:right"/></a>
+</header>
+<nav>
+<hr>
+<a target="main" href="main.html">Home</a> |
+<a target="main" href="research.html">Research</a> |
+<a target="main" href="teaching.html">Teaching</a> |
+<a target="main" href="link.html">Links</a>
+<hr>
+</nav>
+<main>
+<iframe id="main" name="main" src="main.html" scrolling="no"
+onload="resizeIframe(document.getElementById('main'));"></iframe>
+</main>
+<footer>
+<hr>
+<p style="padding-left:12px;"><b>Contact</b>: <span style="font-style: italic;">Chi_Ho_Yuen</span><i> [symbol] Brown [dot] edu</i></p>
+</footer>
+<!--Website template by <a href="http://cs.brown.edu/~clee10/"> Jasper Lee</a>--> 
+</body>
+</html>
