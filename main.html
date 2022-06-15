@@ -3,6 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+    {
+        box-sizing: border-box;
+    }
+    /* Set additional styling options for the columns*/
+    .column {
+    float: left;
+    width: 50%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    </style>
 </head>
 <body class="content">
 <p>
@@ -36,11 +52,22 @@ Here is my <a href="CV_web.pdf" target="_top">CV</a>.
 </p>
 
 <p>Email: <i>chihy [symbol] math [dot] uio [dot] no</i></p>
-<p>Office: 1107</p>
-<p>Mailing address:<br>
-Niels Henrik Abels hus<br>
-University of Oslo<br>
-Moltke Moes vei 35<br>
-0851 Oslo, Norway</p>
+Office: 1107<br>
+<div class="row">
+  <div class="column">
+  <p>Visiting address:<br>
+  Niels Henrik Abels hus<br>
+  University of Oslo<br>
+  Moltke Moes vei 35<br>
+  0851 Oslo, Norway</p>
+  </div>
+  <div class="column">
+  <p>Mailing address:<br>
+  P.O box 1053<br>
+  Blindern<br>
+  0316 Oslo, Norway</p>
+  </div>
+</div>
+
 </body>
 </html>
